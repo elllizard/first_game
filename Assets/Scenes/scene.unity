@@ -1473,6 +1473,7 @@ GameObject:
   - component: {fileID: 1818336117}
   - component: {fileID: 1818336116}
   - component: {fileID: 1818336115}
+  - component: {fileID: 1818336118}
   m_Layer: 0
   m_Name: tile000
   m_TagString: Untagged
@@ -1580,11 +1581,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2ec66c90058a4dbb8eda67558f118ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _animator: {fileID: 1818336114}
-  _horizontalSpeed: 3
-  _direction: 0
-  _jumpForce: 800
-  _gravityScale: 5
+  _animator: {fileID: 1818336118}
+  _directionalMovementData:
+    <HorizontalSpeed>k__BackingField: 3
+    <Direction>k__BackingField: 0
+  _jumpData:
+    <JumpForce>k__BackingField: 800
+    <GravityScale>k__BackingField: 5
   _directionalCameraPair:
     _rightCamera: {fileID: 495396376}
     _leftCamera: {fileID: 111908460}
@@ -1635,6 +1638,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1818336118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818336107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f280f9f2a5478d88fe7224120aea09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1951938158
 GameObject:
   m_ObjectHideFlags: 0

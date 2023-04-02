@@ -1,9 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-namespace Core.Paralax
+namespace Core.Parallax
 {
     public class InfiniteParallaxEffect : MonoBehaviour
     {

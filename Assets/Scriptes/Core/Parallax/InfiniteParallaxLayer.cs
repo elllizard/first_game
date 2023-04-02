@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Core.Paralax
+namespace Core.Parallax
 {
     public class InfiniteParallaxLayer 
     {
